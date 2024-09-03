@@ -1,0 +1,42 @@
+.Welcome {
+  background-image: url("https://images4.alphacoders.com/665/thumb-1920-665806.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 100px 0;
+
+  .logo {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .Welcome {
+    background-image: url("https://images4.alphacoders.com/665/thumb-1920-665806.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// @media (max-width: 600px) {
+//   .Welcome {
+//     background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/common/swbf2-section-bg-2020-april-update-xl.jpg.adapt.768w.jpg");
+//     background-size: cover;
+//     height: 100vh;
+//     width: 100%;
+//   }
+// }

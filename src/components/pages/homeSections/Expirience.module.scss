@@ -1,0 +1,274 @@
+.Expirience {
+  background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-maps-page-death-star-2-16x9-xl.jpg.adapt.crop16x9.1920w.jpg");
+  // padding: 200px 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 -120px 150px -1px #000000;
+
+  .content {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+
+      gap: 20px;
+
+      h3 {
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+      }
+      h1 {
+        color: white;
+        font-size: 40px;
+        font-weight: 900;
+      }
+      p {
+        color: white;
+        text-align: start;
+        font-size: 18px;
+        width: 50%;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        background: rgb(255, 187, 0);
+      }
+    }
+  }
+}
+
+// @media (max-width: 1000px) {
+//   .Expirience {
+//     background-image: url("");
+//     // padding: 200px 0;
+//     width: 100%;
+//     height: 100vh;
+//     background-size: cover;
+
+//     display: flex;
+
+//     justify-content: center;
+//     align-items: center;
+//     box-shadow: inset 0 -120px 150px -1px #000000;
+
+//     .content {
+//       display: flex;
+
+//       justify-content: center;
+//       align-items: center;
+//       .text {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: start;
+
+//         gap: 20px;
+
+//         h3 {
+//           color: white;
+//           font-size: 18px;
+//           font-weight: 400;
+//         }
+//         h1 {
+//           color: white;
+//           font-size: 40px;
+//           font-weight: 900;
+//         }
+//         p {
+//           color: white;
+//           text-align: start;
+//           font-size: 18px;
+//           width: 50%;
+//         }
+//         button {
+//           padding: 10px 20px;
+//           font-size: 20px;
+//           cursor: pointer;
+//           border: none;
+//           border-radius: 4px;
+//           background: rgb(255, 187, 0);
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media (max-width: 800px) {
+  .Expirience {
+    background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-maps-page-death-star-2-16x9-xl.jpg.adapt.crop1x1.767w.jpg");
+    // padding: 200px 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    box-shadow: inset 0 -120px 150px -1px #000000;
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+    .content {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        gap: 20px;
+
+        h3 {
+          color: white;
+          font-size: 18px;
+          font-weight: 400;
+        }
+        h1 {
+          color: white;
+          font-size: 40px;
+          font-weight: 900;
+        }
+        p {
+          color: white;
+          text-align: start;
+          font-size: 18px;
+          width: 100%;
+        }
+        button {
+          padding: 10px 20px;
+          font-size: 20px;
+          cursor: pointer;
+          border: none;
+          border-radius: 4px;
+          background: rgb(255, 187, 0);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Expirience {
+    background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-maps-page-death-star-2-16x9-xl.jpg.adapt.crop1x1.767w.jpg");
+    // padding: 200px 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    box-shadow: inset 0 -120px 150px -1px #000000;
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+    .content {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        gap: 10px;
+
+        h3 {
+          color: white;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        h1 {
+          color: white;
+          font-size: 30px;
+          font-weight: 900;
+        }
+        p {
+          color: white;
+          text-align: start;
+          font-size: 16px;
+          width: 100%;
+        }
+        button {
+          padding: 10px 20px;
+          font-size: 16px;
+          cursor: pointer;
+          border: none;
+          border-radius: 4px;
+          background: rgb(255, 187, 0);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .Expirience {
+    background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-maps-page-death-star-2-16x9-xl.jpg.adapt.crop1x1.767w.jpg");
+    // padding: 200px 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    box-shadow: inset 0 -120px 150px -1px #000000;
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+    .content {
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        gap: 10px;
+
+        h3 {
+          color: white;
+          font-size: 14px;
+          font-weight: 400;
+        }
+        h1 {
+          color: white;
+          font-size: 25px;
+          font-weight: 900;
+        }
+        p {
+          color: white;
+          text-align: start;
+          font-size: 14px;
+          width: 100%;
+        }
+        button {
+          padding: 10px 20px;
+          font-size: 14px;
+          cursor: pointer;
+          border: none;
+          border-radius: 4px;
+          background: rgb(255, 187, 0);
+        }
+      }
+    }
+  }
+}

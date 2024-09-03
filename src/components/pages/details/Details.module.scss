@@ -1,0 +1,513 @@
+.Details {
+  background-image: url("https://images2.alphacoders.com/104/thumb-1920-1045872.jpg");
+  background-size: cover;
+  padding: 100px 0;
+  .content {
+    .detail {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgb(0, 0, 0);
+      border-radius: 20px;
+      gap: 30px;
+
+      .text {
+        width: 500px;
+        height: 100%;
+        h5 {
+          color: rgb(255, 166, 0);
+          font-size: 18px;
+        }
+        h2 {
+          color: white;
+          font-size: 33px;
+        }
+        p {
+          color: white;
+          font-size: 20px;
+          width: 90%;
+        }
+      }
+      .images {
+        overflow: hidden;
+        width: 1000px;
+        height: 600px;
+        border-radius: 20px;
+
+        img {
+          width: 1100px;
+          height: 100%;
+          margin-left: -400px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+.sila {
+  background-image: url("https://images5.alphacoders.com/101/thumb-1920-1017984.png");
+  padding: 150px 0;
+  background-size: cover;
+
+  h1 {
+    // text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 33px;
+    margin-left: 100px;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    .box {
+      width: 500px;
+      height: 100%;
+      background: rgba(97, 94, 94, 0.712);
+      // backdrop-filter: blur(10px);
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border-radius: 10px;
+      p {
+        color: white;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .Details {
+    background-image: url("https://images2.alphacoders.com/104/thumb-1920-1045872.jpg");
+    background-size: cover;
+    padding: 100px 0;
+    .content {
+      .detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        gap: 30px;
+
+        .text {
+          width: 500px;
+          height: 100%;
+          h5 {
+            color: rgb(255, 166, 0);
+            font-size: 16px;
+          }
+          h2 {
+            color: white;
+            font-size: 30px;
+          }
+          p {
+            color: white;
+            font-size: 16px;
+            width: 90%;
+          }
+        }
+        .images {
+          overflow: hidden;
+          width: 700px;
+          height: 500px;
+          border-radius: 20px;
+
+          img {
+            width: 900px;
+            height: 100%;
+            margin-left: -400px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+
+  .sila {
+    background-image: url("https://images5.alphacoders.com/101/thumb-1920-1017984.png");
+    padding: 150px 0;
+
+    h1 {
+      // text-align: center;
+      padding: 10px;
+      color: white;
+      font-size: 33px;
+      margin-left: 0px;
+    }
+    .content {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      .box {
+        width: 500px;
+        height: 100%;
+
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        p {
+          color: white;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .Details {
+    background-image: url("https://images2.alphacoders.com/104/thumb-1920-1045872.jpg");
+    background-size: cover;
+    padding: 100px 0;
+    .content {
+      .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        gap: 30px;
+
+        .text {
+          width: 500px;
+          height: 100%;
+          padding: 20px;
+          h5 {
+            color: rgb(255, 166, 0);
+            font-size: 16px;
+          }
+          h2 {
+            color: white;
+            font-size: 30px;
+          }
+          p {
+            color: white;
+            font-size: 16px;
+            width: 90%;
+          }
+        }
+
+        .images {
+          overflow: hidden;
+          width: 500px;
+          height: 100%;
+          border-radius: 20px;
+          margin-top: 20px;
+
+          img {
+            width: 1100px;
+            height: 100%;
+            margin-left: -500px;
+
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+
+  .sila {
+    background-image: url("https://images5.alphacoders.com/101/thumb-1920-1017984.png");
+    padding: 150px 0;
+
+    h1 {
+      text-align: center;
+      padding: 10px;
+      color: white;
+      font-size: 28px;
+      margin-left: 0px;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      .box {
+        width: 500px;
+        height: 100%;
+
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        p {
+          color: white;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Details {
+    background-image: url("https://images2.alphacoders.com/104/thumb-1920-1045872.jpg");
+    background-size: cover;
+    padding: 100px 0;
+    .content {
+      .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        gap: 10px;
+
+        .text {
+          width: 350px;
+          height: 100%;
+          padding: 20px;
+          h5 {
+            color: rgb(255, 166, 0);
+            font-size: 12px;
+          }
+          h2 {
+            color: white;
+            font-size: 25px;
+          }
+          p {
+            color: white;
+            font-size: 14px;
+            width: 90%;
+          }
+        }
+
+        .images {
+          overflow: hidden;
+          width: 380px;
+          height: 100%;
+          border-radius: 20px;
+          margin-top: 20px;
+
+          img {
+            width: 800px;
+            height: 100%;
+            margin-left: -400px;
+
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+
+  .sila {
+    background-image: url("https://images5.alphacoders.com/101/thumb-1920-1017984.png");
+    padding: 150px 0;
+
+    h1 {
+      text-align: center;
+      padding: 10px;
+      color: white;
+      font-size: 28px;
+      margin-left: 0px;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      .box {
+        width: 100%;
+        height: 100%;
+
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        p {
+          color: white;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .Details {
+    background-image: url("https://images2.alphacoders.com/104/thumb-1920-1045872.jpg");
+    background-size: cover;
+    padding: 100px 0;
+    .content {
+      .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        gap: 0px;
+
+        .text {
+          width: 280px;
+          height: 100%;
+          padding: 20px;
+          h5 {
+            color: rgb(255, 166, 0);
+            font-size: 12px;
+          }
+          h2 {
+            color: white;
+            font-size: 20px;
+          }
+          p {
+            color: white;
+            font-size: 12px;
+            width: 90%;
+          }
+        }
+
+        .images {
+          overflow: hidden;
+          width: 280px;
+          height: 100%;
+          border-radius: 20px;
+          margin-top: 20px;
+
+          img {
+            width: 600px;
+            height: 100%;
+            margin-left: -290px;
+
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+
+  .sila {
+    background-image: url("https://images5.alphacoders.com/101/thumb-1920-1017984.png");
+    padding: 100px 0;
+
+    h1 {
+      text-align: center;
+      padding: 10px;
+      color: white;
+      font-size: 22px;
+      margin-left: 0px;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      .box {
+        width: 100%;
+        height: 100%;
+
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        p {
+          color: white;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .Details {
+    background-image: url("https://images2.alphacoders.com/104/thumb-1920-1045872.jpg");
+    background-size: cover;
+    padding: 100px 0;
+    .content {
+      .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(0, 0, 0);
+        border-radius: 20px;
+        gap: 0px;
+
+        .text {
+          width: 230px;
+          height: 100%;
+          padding: 10px;
+          h5 {
+            color: rgb(255, 166, 0);
+            font-size: 10px;
+          }
+          h2 {
+            color: white;
+            font-size: 18px;
+          }
+          p {
+            color: white;
+            font-size: 12px;
+            width: 90%;
+          }
+        }
+
+        .images {
+          overflow: hidden;
+          width: 230px;
+          height: 100%;
+          border-radius: 20px;
+          margin-top: 20px;
+
+          img {
+            width: 500px;
+            height: 100%;
+            margin-left: -230px;
+
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+
+  .sila {
+    background-image: url("https://images5.alphacoders.com/101/thumb-1920-1017984.png");
+    padding: 100px 0;
+
+    h1 {
+      text-align: center;
+      padding: 10px;
+      color: white;
+      font-size: 18px;
+      margin-left: 0px;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      .box {
+        width: 100%;
+        height: 100%;
+
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        p {
+          color: white;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

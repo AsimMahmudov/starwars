@@ -1,0 +1,166 @@
+.header {
+  position: fixed;
+  width: 100%;
+  padding-block: 20px;
+
+  background: rgba(0, 0, 0, 0.507);
+  backdrop-filter: blur(10px);
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 33px;
+      link {
+        a {
+          color: rgb(161, 161, 161);
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .buutons {
+    display: flex;
+    gap: 5px;
+
+    a {
+      padding: 10px 30px;
+      background: #00000000;
+      border: solid rgb(0, 94, 235) 3px;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+      color: white;
+    }
+    a:hover {
+      box-shadow: 0 0 10px rgb(0, 94, 235), 0 0 20px rgb(0, 94, 235);
+      transition: 0.2s;
+    }
+    a:active {
+      background: rgb(0, 94, 235);
+      color: #000000;
+      transition: 0.1s;
+    }
+  }
+
+  .bur {
+    padding: 10px 30px;
+    background: #00000000;
+    border: solid rgb(0, 94, 235) 3px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+  }
+
+  button:active {
+    background: rgb(0, 94, 235);
+    color: #000000;
+    transition: 0.1s;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    padding-block: 20px;
+
+    background: rgba(0, 0, 0, 0.507);
+    backdrop-filter: blur(10px);
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 0px;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 120px;
+      }
+    }
+
+    .nav {
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 33px;
+        link {
+          a {
+            color: rgb(161, 161, 161);
+            text-decoration: none;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .buutons {
+      display: flex;
+      gap: 5px;
+
+      a {
+        padding: 10px 30px;
+        background: #00000000;
+        border: solid rgb(0, 94, 235) 3px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        box-shadow: 0 0 10px rgb(0, 94, 235), 0 0 20px rgb(0, 94, 235);
+        transition: 0.2s;
+      }
+      a:active {
+        background: rgb(0, 94, 235);
+        color: #000000;
+        transition: 0.1s;
+      }
+    }
+
+    .bur {
+      padding: 10px 25px;
+      background: #00000000;
+      border: solid rgb(235, 219, 0) 3px;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 12px;
+      color: white;
+    }
+
+    button:active {
+      background: rgb(134, 92, 0);
+      color: #000000;
+      transition: 0.1s;
+    }
+  }
+}

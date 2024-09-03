@@ -1,0 +1,120 @@
+.VideoStar {
+  background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-campaign-imperial-raider-16x9-xl.jpg.adapt.crop16x9.1920w.jpg");
+  padding: 100px 0;
+  background-size: cover;
+
+  .Content {
+    .video {
+      h2 {
+        color: white;
+        padding: 20px 0;
+        color: rgb(255, 166, 0);
+      }
+      .trey {
+        width: 100%;
+        height: 700px;
+        border: solid 3px rgb(255, 166, 0);
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .VideoStar {
+    background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-campaign-imperial-raider-16x9-xl.jpg.adapt.crop16x9.1920w.jpg");
+    padding: 100px 0;
+    background-size: cover;
+
+    .Content {
+      .video {
+        h2 {
+          color: white;
+          padding: 20px 0;
+          color: rgb(255, 166, 0);
+        }
+        .trey {
+          width: 100%;
+          height: 500px;
+          border: solid 3px rgb(255, 166, 0);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .VideoStar {
+    background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-campaign-imperial-raider-16x9-xl.jpg.adapt.crop16x9.1920w.jpg");
+    padding: 100px 0;
+    background-size: cover;
+
+    .Content {
+      .video {
+        h2 {
+          color: white;
+          padding: 20px 0;
+          color: rgb(255, 166, 0);
+          font-size: 22px;
+        }
+        .trey {
+          width: 100%;
+          height: 400px;
+          border: solid 3px rgb(255, 166, 0);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .VideoStar {
+    background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-campaign-imperial-raider-16x9-xl.jpg.adapt.crop16x9.1920w.jpg");
+    padding: 100px 0;
+    background-size: cover;
+
+    .Content {
+      .video {
+        h2 {
+          color: white;
+          padding: 20px 0;
+          color: rgb(255, 166, 0);
+          font-size: 22px;
+        }
+        .trey {
+          width: 100%;
+          height: 300px;
+          border: solid 3px rgb(255, 166, 0);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .VideoStar {
+    background-image: url("https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-campaign-imperial-raider-16x9-xl.jpg.adapt.crop16x9.1920w.jpg");
+    padding: 100px 0;
+    background-size: cover;
+
+    .Content {
+      .video {
+        h2 {
+          color: white;
+          padding: 20px 0;
+          color: rgb(255, 166, 0);
+          font-size: 18px;
+        }
+        .trey {
+          width: 100%;
+          height: 200px;
+          border: solid 3px rgb(255, 166, 0);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
